@@ -1,0 +1,75 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+button
+{
+    border: none;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#display
+{
+    margin: auto;
+    width: 100%;
+    padding: 25px;
+    border: none;
+    font-size: 3rem;
+    background-color: hsl(0, 0%, 30%);
+    text-align: left;
+    color: white;
+}
+
+.op
+{
+    background-color: orange;
+}
+
+.container
+{
+    background-color: hsl(0, 0%, 15%); 
+    border-radius:20px ;
+    min-width: none;
+    width: fit-content;
+    overflow: hidden; 
+    box-shadow: 10px 10px 3px lightgray;
+}
+
+.btn-container
+{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    gap: 01rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover
+{
+    background-color: hsl(0, 0%, 70%);
+}
+
+button:active
+{
+    background-color: hsl(0, 0%, 80%);
+}
+
+button.op:hover
+{
+    background-color:hsl(39, 100%, 35%);
+}
+
+button.op:active
+{
+    background-color: hsl(39, 100%, 40%);
+}
