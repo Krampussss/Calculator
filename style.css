@@ -29,6 +29,11 @@ button
     color: white;
 }
 
+#display:focus
+{
+    outline: hsl(0, 0%, 80%) solid 2px;
+}
+
 .op
 {
     background-color: orange;
