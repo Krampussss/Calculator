@@ -33,4 +33,7 @@ function solve()
     }
 }
 
-
+function del()
+{
+    display.value = String(display.value).slice(0,-1);
+}
